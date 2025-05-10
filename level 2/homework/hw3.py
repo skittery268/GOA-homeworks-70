@@ -1,6 +1,4 @@
-name = "Saba"
-print("hello " + name)
-
+# 4) შექმენით 5-5 მაგალითი მათემატიკურ ოპერატორებზე +, -, * და /
 print(5 + 5)
 print(245 + 545)
 print(465 + 235)
@@ -24,14 +22,3 @@ print(5678 / 7)
 print(8273 / 8)
 print(9987 / 3)
 print(6745 / 4)
-
-name1 = "Saba"
-print("Name: " + name1)
-age = 15
-print("Age: ", age)
-height = 179
-print("Height: ", height)
-level = 0
-print("Programming level: ", level)
-dog = True 
-print("Does Saba have a pet?: ", dog)
