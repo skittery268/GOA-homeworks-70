@@ -1,0 +1,50 @@
+<!-- 
+დავალება 4: მინი ექსკურსიის განაცხადი
+სკოლაში იქნება პატარა გასეირნება. შექმენი ფორმა განაცხადისთვის.
+
+უნდა ჰქონდეს:
+
+სახელი და გვარი
+
+რომელ კლასში ხარ?
+
+გინდა წასვლა? (radio – კი / არა)
+
+გინდა წამოიღო საჭმელი? (checkbox)
+
+მშობლის ტელეფონის ნომერი
+
+ღილაკი: „დადასტურება“ 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="name">თქვენი სახელი და გვარი: </label>
+    <input type="text" name="name" id="name">
+    <br>
+    <label for="class">რომელ კლასში ხარ: </label>
+    <input type="number" name="class" id="class">
+    <br>
+    <p>გინდა წასვლა? </p>
+    <label for="yes">კი</label>
+    <input type="radio" name="yes-or-no" id="yes">
+    <label for="no">არა</label>
+    <input type="radio" name="yes-or-no" id="no">
+    <p>გინდა წამოიღო საჭმელი?</p>
+    <label for="yes">კი</label>
+    <input type="checkbox" name="no-or-yes" id="yes">
+    <label for="no">არა</label>
+    <input type="checkbox" name="no-or-yes" id="no">
+    <br>
+    <label for="phone-number">მშობლის ტელეფონის ნომერი: </label>
+    <input type="text" name="phone-number" id="phone-number">
+    <br>
+    <input type="submit" name="sub" value="დადასტურება">
+</body>
+</html>
