@@ -1,0 +1,30 @@
+<!-- 1) ახსენით რაში გამოიყენება name და value ატრიბუტი  -->
+<!-- გამოიყენე  Drop-down-menu-ს შესაქმნელად :select, option  -->
+
+<!-- 
+name - ატრიბუტი გამოიყენება იმისთვის, რომ სერვერზე სწორად გაიგზავნოს ინფორმაცია (ეს ატრიბუტი მნიშვნელოვანია გამოყენებისთვის.).
+value - ატრიბუტი გამოიყენება იმისთვის, რომ მივცეთ თეგს რაიმე მნიშვნელობა.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="colors">Choose any color: </label>
+        <select name="color" id="colors">
+            <option value="black">Black</option>
+            <option value="pink">Pink</option>
+            <option value="white">White</option>
+            <option value="yellow">Yellow</option>
+            <option value="red">Red</option>
+        </select>
+        <br>
+        <input type="submit" value="Save">
+    </form>
+</body>
+</html>
