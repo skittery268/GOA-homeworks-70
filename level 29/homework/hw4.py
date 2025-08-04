@@ -1,6 +1,7 @@
 # 4) შექმენით ფუნქცია, რომელიც იღებს წინადადებას, და მასში space-ების მაგივრად სიტყვებს შორის ჩასვამს ტირეს("-"). საბოლოოდ კი აბრუნებს მას
 
 proposal = "Hello my name is Saba "
+print(proposal)
 
 def words(prop):
     my_list = []
