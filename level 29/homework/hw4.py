@@ -15,7 +15,7 @@ def words(prop):
             list_word = ""
     
     new_proposal = ""
-
+    
     for word in my_list:
         new_proposal += word + "-"
     return new_proposal

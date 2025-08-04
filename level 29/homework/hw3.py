@@ -13,9 +13,9 @@ def formating_space(prop):
         else:
             new_list.append(new_proposal)
             new_proposal = ""
-
+    
     new_prop = ""
-
+    
     for word in new_list:
         if len(word) > 0:
             new_prop += word + " "

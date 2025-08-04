@@ -16,7 +16,7 @@ def reverse_sentensive(prop):
     
     new_proposal = ""
     new_list = words[::-1]
-
+    
     for proposal in new_list:
         new_proposal += proposal + " "
     return new_proposal
