@@ -2,6 +2,7 @@
 
 proposal = input("Enter sentensive: ")
 proposal += " "
+print()
 
 def formating_space(prop):
     new_list = []

@@ -2,6 +2,7 @@
 
 proposal = "Hello world, my name is Saba "
 print(proposal)
+print()
 
 def reverse_sentensive(prop):
     words = []

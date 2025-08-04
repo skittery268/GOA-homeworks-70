@@ -2,6 +2,7 @@
 
 proposal = "Hello my name is Saba "
 print(proposal)
+print()
 
 def words(prop):
     my_list = []
