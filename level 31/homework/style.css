@@ -1,0 +1,29 @@
+.h1 {
+    color: red;
+    background-color: black;
+    font-size: 50px;
+}
+
+.h2 {
+    color: black;
+    background-color: red;
+    font-size: 40px;
+}
+
+.h3 {
+    color: blue;
+    background-color: red;
+    font-size: 30px;
+}
+
+#p1 {
+    color: blueviolet;
+    background-color: pink;
+    font-size: 20px;
+}
+
+#p2 {
+    color: gold;
+    background-color: chocolate;
+    font-size: 30px;
+}

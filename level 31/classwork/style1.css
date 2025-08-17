@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: green;
+    background-color: blue;
+    font-size: 20px;
+}
+
+h3 {
+    color: blue;
+    background-color: green;
+}
+
+p {
+    color: blueviolet;
+    background-color: darkgray;
+}
