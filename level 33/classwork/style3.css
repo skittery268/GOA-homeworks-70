@@ -1,0 +1,21 @@
+#d1 {
+    background-color: aqua;
+    padding: 20px;
+    border: 1px solid blue;
+    margin: 10px;
+}
+
+#d2 {
+    background-color: blue;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#d3 {
+    background-color: chocolate;
+    padding: 20px;
+    border: 5px solid orange;
+    margin: 10px;
+}
+

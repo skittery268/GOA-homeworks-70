@@ -1,0 +1,27 @@
+h1 {
+    color: white;
+}
+
+p {
+    background-color: rgb(255, 0, 0);
+    padding: 50px;
+    margin: 30px;
+    border: 7px solid black;
+    color: white;
+    text-align: center;
+
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px black;
+    font-size: large;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: blue;
+}
+
