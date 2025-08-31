@@ -1,0 +1,13 @@
+div {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    color: red;
+    box-shadow: 8px 8px 8px grey;
+    text-align: center;
+}
+
+p {
+    padding-top: 120px;
+}
+
